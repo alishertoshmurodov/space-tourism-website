@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+@mixin h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    font-weight: 400;
+}
+@mixin h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    font-weight: 400;
+}
+@mixin h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    font-weight: 400;
+}
+@mixin h4 {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+@mixin h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    font-weight: 400;
+}
+
+@mixin p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+@mixin subheading-1 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+}
+
+@mixin subheading-2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+}
+
+@mixin nav-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+}
+

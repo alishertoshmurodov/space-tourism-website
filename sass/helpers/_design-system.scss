@@ -1,0 +1,16 @@
+/* ----------------- */
+/* Colors            */
+/* ----------------- */
+
+$very-dark-blue: #0B0D17;
+$light: #D0D6F9;
+$white: #ffffff;
+
+.active-nav {
+    border-bottom: 3px solid #fff !important;
+}
+
+.active-tech-tab {
+    background-color: #fff !important;
+    color: $very-dark-blue !important;
+}

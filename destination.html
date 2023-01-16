@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/shared/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/shared/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/shared/favicon-16x16.png">
+  <link rel="manifest" href="/assets/shared/site.webmanifest">
+  <link rel="stylesheet" href="/sass/main.css">
+  <title>Destination | Space tourism website</title>
+</head>
+
+<body class="destination">
+  <header class="header">
+    <div class="header__logo">
+      <img src="assets/shared/logo.svg" alt="Space tourism logo">
+    </div>
+    <div class="hamburger-menu" aria-expanded="false"><img src="/assets/shared/icon-hamburger.svg" alt="mobile menu"></div>
+    <nav class="header__menu">   
+      <ul>
+        <li><a href="index.html"><span>00</span> HOME</a></li>
+        <li><a class="active-nav" href="destination.html"><span>01</span> DESTINATION</a></li>
+        <li><a href="crews.html"><span>02</span> CREW</a></li>
+        <li><a href="technology.html"><span>03</span> TECHNOLOGY</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="fade-in-bottom">
+    <h5 class="page-heading"><span>01</span> PICK YOUR DESTINATION</h5>
+    <div class="destination-container">
+      <div class="destination-container__planet-image fade-in-bottom">
+        <img src="/assets/destination/image-moon.webp" alt="Moon">
+      </div>
+      <div class="destination-container__planet-info">
+        <ul class="destination-container__toggle">
+          <li class="destination-container__list-item active-toggle-bar" value="moon">MOON</li>
+          <li class="destination-container__list-item" value="mars">MARS</li>
+          <li class="destination-container__list-item" value="europa">EUROPA</li>
+          <li class="destination-container__list-item" value="titan">TITAN</li>
+        </ul>
+        <div class="planet-info-container fade-in">
+          <h2>MOON</h2>
+        <p class="destination-info">See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+          regain perspective and come back refreshed. While you’re there, take in some history
+          by visiting the Luna 2 and Apollo 11 landing sites.</p>
+          <hr>
+        <div class="destination-container__distance">
+          <p>AVG. DISTANCE</p>
+          <p>384,400 KM</p>
+        </div>
+        <div class="destination-container__travel-time">
+          <p>EST. TRAVEL TIME</p>
+          <p>3 DAYS</p>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+  <script src="/script.js"></script>
+</body>
+
+</html>

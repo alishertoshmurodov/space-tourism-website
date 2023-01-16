@@ -1,0 +1,10 @@
+@mixin flex($gap: 1rem) {
+    display: flex;
+    gap: $gap;
+}
+
+@mixin grid($gap: 1rem) {
+    display: grid;
+    gap: $gap;
+}
+
