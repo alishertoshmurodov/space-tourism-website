@@ -713,6 +713,9 @@ select {
     font-size: 80px;
     line-height: 100px;
   }
+  .explore__button {
+    font-size: 20px;
+  }
   .destination {
     background-image: url(/assets/destination/background-destination-mobile.jpg);
   }
